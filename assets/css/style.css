@@ -832,8 +832,6 @@ textarea.input-field {
 
 .contact .map {
   width: 100%;
-  padding-inline: 0;
-  margin-inline: 0;
 }
 
 .contact-item {
@@ -899,16 +897,8 @@ textarea.input-field {
 .cursor-outline { display: none; }
 
 
-@media (max-width: 574px) {
-
-  .contact .map {
-  width: 100%;
-  margin-left: -10px;
-}
-}
 
 @media (min-width: 575px) {
-
 
   :root {
     --fontSize-1: 5.6rem;
