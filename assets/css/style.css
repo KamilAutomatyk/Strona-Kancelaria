@@ -356,7 +356,7 @@ body.nav-active { overflow: hidden; }
 }
 
   .logo:hover img {
-    transform: scale(1.18) translateZ(100px);
+    transform: scale(1.09) translateZ(100px);
  }
 
 @keyframes slideIn {
@@ -1189,7 +1189,7 @@ textarea.input-field {
   }
   
   .logo {
-    width: 340px;
+    width: 335px;
   }
 
   .nav-open-btn,
@@ -1214,7 +1214,7 @@ textarea.input-field {
   .header .container { padding-inline: 60px; }
 
     .logo:hover img {
-    transform: scale(1.35) translateZ(100px);
+    transform: scale(1.2) translateZ(100px);
  }
 
   .main { padding-block-start: 160px; }
