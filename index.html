@@ -84,7 +84,7 @@
           </li>
 
           <li>
-            <a href="#contact-data" class="navbar-link" data-nav-link>Kontakt</a>
+            <a href="#contact-data" onclick="scrollWithOffset(event, 'contact-data')" class="navbar-link" data-nav-link>Kontakt</a>
           </li>
           
         </ul>
@@ -562,7 +562,7 @@
               <input type="tel" pattern="[0-9]{9}" title="Podaj 9 cyfr numeru telefonu" name="phone" placeholder="Numer telefonu" autocomplete="off" 
               class="input-field">
 
-              <textarea name="message" placeholder="Wiadomość"
+              <textarea name="message" placeholder="Treść wiadomości"
               required class="input-field"></textarea>
 
               <button type="submit" class="btn btn:hover">
