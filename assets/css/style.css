@@ -562,7 +562,7 @@ body.nav-active { overflow: hidden; }
 
 .title-service-text {
   font-family: var(--fontFamily-lora);
-  font-size: var(--fontSize-1);
+  font-size: var(--fontSize-3);
   color: var(--bg-white);
   margin-bottom: 0.75em;
 }
@@ -963,7 +963,6 @@ textarea.input-field {
   :root {
     --fontSize-1: 6.6rem;
     --section-spacing: 100px;
-
   }
 
   .container {
@@ -972,6 +971,7 @@ textarea.input-field {
     margin-inline: auto;
   }
 
+  
   .header {
     height: 80px;
   }
@@ -1251,11 +1251,11 @@ textarea.input-field {
 }
 
 
-@media (min-width: 1600px) {
+/* @media (min-width: 1600px) {
 
 .container,
 .offer .container { max-width: 1600px; }
 
 .navbar-list { gap: 50px; }
 
-}
+} */
