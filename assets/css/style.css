@@ -619,7 +619,7 @@ body.nav-active { overflow: hidden; }
 .tab-content .section-text:not(:last-child) { margin-block-end: 20px; }
 
 .section-text {
-  font-size: var(--fontSize-7);
+  font-size: var(--fontSize-8);
   text-align: justify;
   word-spacing: -0.1em;
   letter-spacing: 0.01em;
