@@ -579,7 +579,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .list-style-type {
-  font-size: var(--fontSize-5);
+  font-size: var(--fontSize-6);
   padding-left: 20px;
 }
 
