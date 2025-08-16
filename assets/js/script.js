@@ -212,3 +212,32 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
   .then(() => alert('Wiadomość wysłana!'))
   .catch(() => alert('Wystąpił błąd. Spróbuj ponownie.'));
 });
+
+
+function isMobile() {
+  return window.innerWidth < 992;
+}
+
+if (isMobile()) {
+  const icons = document.querySelectorAll('.toggle-icon');
+  const texts = document.querySelectorAll('.section-text');
+
+  const ionicon = document.querySelectorAll('.expand-icon');
+
+  icons.forEach((icon, index) => {
+    icon.addEventListener('click', () => {
+      texts[index].classList.toggle('expanded');
+      icons[index].classList.toggle('up');
+    });
+  });
+
+  texts.forEach((text, index) => {
+    text.addEventListener('click', () => {
+      texts[index].classList.toggle('expanded');
+      icons[index].classList.toggle('up');
+    });
+  });
+}
+
+
+
