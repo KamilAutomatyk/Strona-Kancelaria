@@ -640,7 +640,7 @@ position: relative;}
 }
 
 .section-text.expanded {
-  max-height: 1000px;
+  max-height: 1100px;
 }
 
 .toggle-icon {
@@ -1156,7 +1156,7 @@ textarea.input-field {
 
   .section-text {
     cursor: auto;
-    max-height: 1000px;
+    max-height: 1100px;
     overflow: auto;
   }
 
@@ -1302,5 +1302,6 @@ textarea.input-field {
 .offer .container { max-width: 1600px; }
 
 .navbar-list { gap: 50px; }
+
 
 } */
