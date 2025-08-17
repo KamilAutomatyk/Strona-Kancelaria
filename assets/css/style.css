@@ -865,8 +865,8 @@ textarea.input-field {
 
 .contact-item {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: flex-start;
   gap: 15px;
 }
 
@@ -901,7 +901,7 @@ textarea.input-field {
   /* gap: 8px; */
   text-align: justify;
   font-size: 0.7em;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-family: var(--fontFamily-lora);
 }
 
