@@ -218,7 +218,7 @@ function isMobile() {
   return window.innerWidth < 992;
 }
 
-if (isMobile()) {
+//if (isMobile()) {
   const icons = document.querySelectorAll('.toggle-icon');
   const texts = document.querySelectorAll('.section-text');
 
@@ -237,7 +237,7 @@ if (isMobile()) {
       icons[index].classList.toggle('up');
     });
   });
-}
+//}
 
 
 
