@@ -226,17 +226,36 @@ function isMobile() {
 
   icons.forEach((icon, index) => {
     icon.addEventListener('click', () => {
-      texts[index].classList.toggle('expanded');
+      const isExpanded = texts[index].classList.toggle('expanded');
       icons[index].classList.toggle('up');
+
+      if (isExpanded) {
+        texts[index].style.maxHeight = texts[index].scrollHeight + 'px';
+      } 
+      else {
+        texts[index].style.maxHeight = texts[index].scrollHeight + 'px';
+        setTimeout(() => {
+          texts[index].style.maxHeight = '50px'; }, 10);
+      }
     });
   });
 
-  texts.forEach((text, index) => {
+    texts.forEach((text, index) => {
     text.addEventListener('click', () => {
-      texts[index].classList.toggle('expanded');
+      const isExpanded = texts[index].classList.toggle('expanded');
       icons[index].classList.toggle('up');
+
+      if(isExpanded) {
+        texts[index].style.maxHeight = texts[index].scrollHeight + 'px';
+      } 
+      else {
+        texts[index].style.maxHeight = text.scrollHeight + 'px';
+        setTimeout(() => {
+          texts[index].style.maxHeight = '50px'; }, 10);
+      }
     });
   });
+  
 //}
 
 
