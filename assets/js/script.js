@@ -215,10 +215,10 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
 
 
 function isMobile() {
-  return window.innerWidth < 992;
+  return window.innerWidth < 792;
 }
 
-//if (isMobile()) {
+// if (isMobile()) {
   const icons = document.querySelectorAll('.toggle-icon');
   const texts = document.querySelectorAll('.section-text');
 
@@ -226,37 +226,39 @@ function isMobile() {
 
   icons.forEach((icon, index) => {
     icon.addEventListener('click', () => {
-      const isExpanded = texts[index].classList.toggle('expanded');
+      texts[index].classList.toggle('expanded');
+      // const isExpanded = texts[index].classList.toggle('expanded');
       icons[index].classList.toggle('up');
 
-      if (isExpanded) {
-        texts[index].style.maxHeight = texts[index].scrollHeight + 'px';
-      } 
-      else {
-        texts[index].style.maxHeight = texts[index].scrollHeight + 'px';
-        setTimeout(() => {
-          texts[index].style.maxHeight = '50px'; }, 10);
-      }
+      // if (isExpanded) {
+      //   texts[index].style.maxHeight = texts[index].scrollHeight + 'px';
+      // } 
+      // else {
+      //   texts[index].style.maxHeight = texts[index].scrollHeight + 'px';
+      //   setTimeout(() => {
+      //     texts[index].style.maxHeight = '50px'; }, 10);
+      // }
     });
   });
 
     texts.forEach((text, index) => {
     text.addEventListener('click', () => {
-      const isExpanded = texts[index].classList.toggle('expanded');
+      texts[index].classList.toggle('expanded');
+      // const isExpanded = texts[index].classList.toggle('expanded');
       icons[index].classList.toggle('up');
 
-      if(isExpanded) {
-        texts[index].style.maxHeight = texts[index].scrollHeight + 'px';
-      } 
-      else {
-        texts[index].style.maxHeight = text.scrollHeight + 'px';
-        setTimeout(() => {
-          texts[index].style.maxHeight = '50px'; }, 10);
-      }
+      // // if(isExpanded) {
+      // //   texts[index].style.maxHeight = texts[index].scrollHeight + 'px';
+      // // } 
+      // // else {
+      // //   texts[index].style.maxHeight = text.scrollHeight + 'px';
+      // //   setTimeout(() => {
+      // //     texts[index].style.maxHeight = '50px'; }, 10);
+      // // }
     });
   });
   
-//}
+// }
 
 
 
