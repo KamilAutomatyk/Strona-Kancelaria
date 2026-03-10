@@ -932,7 +932,8 @@ textarea.input-field {
 
 .back-top-btn {
   color: var(--text-white);
-  padding: 32px 16px;
+  padding: 20px 16px;
+  margin-inline: 3rem;
   border-inline: 1px solid var(--bg-white);
   transition: ease-in-out 300ms;
 }
