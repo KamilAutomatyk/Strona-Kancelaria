@@ -933,12 +933,13 @@ textarea.input-field {
 .back-top-btn {
   color: var(--text-white);
   padding: 32px 16px;
-  border-inline: 1px solid var(--border-eerie-black);
+  border-inline: 1px solid var(--bg-white);
   transition: ease-in-out 300ms;
 }
 
 .back-top-btn:hover {
   color: var(--text-black);
+  border-inline: 1px solid var(--bg-black);
 }
 
 .privacy-link:is(:hover, :focus-visible) { color: var(--text-white); }
